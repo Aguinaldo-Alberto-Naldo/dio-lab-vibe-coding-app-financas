@@ -1,89 +1,406 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 PRD — FinChat AI
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+> **Aplicativo Inteligente de Organização de Finanças Pessoais utilizando IA Conversacional, desenvolvido com Lovable e Supabase.**
 
-## ✨ O que é Vibe Coding
+---
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+# 📌 Visão Geral
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+O **FinChat AI** é um aplicativo de finanças pessoais que utiliza Inteligência Artificial para permitir que os usuários registrem receitas, despesas e metas financeiras através de uma conversa natural.
 
-## 🎯 Desafio
+Em vez de preencher formulários, o usuário simplesmente conversa com um assistente financeiro inteligente, que interpreta as mensagens, registra automaticamente as transações, organiza os dados e fornece recomendações personalizadas para melhorar a saúde financeira.
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+O objetivo é criar uma experiência extremamente simples, intuitiva e moderna, tornando o controle financeiro acessível até mesmo para quem nunca utilizou um aplicativo desse tipo.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+---
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+# 🎯 Objetivo do Projeto
 
-## 🪄 Etapas do Desafio
+Desenvolver um MVP funcional que permita aos usuários:
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+- 💬 Registrar receitas e despesas por conversa.
+- 🤖 Utilizar IA para interpretar linguagem natural.
+- 📊 Visualizar dashboards financeiros em tempo real.
+- 🎯 Criar metas financeiras.
+- 💡 Receber recomendações inteligentes para economizar.
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+---
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+# 🚨 Problema
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+Grande parte das pessoas abandona aplicativos financeiros porque:
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+- exigem muito cadastro manual;
+- possuem interfaces complexas;
+- obrigam o usuário a organizar todas as categorias;
+- não oferecem orientação personalizada.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+O FinChat AI resolve esse problema utilizando IA Conversacional para automatizar praticamente todo o processo.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+---
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+# 👥 Público-Alvo
+
+O aplicativo é destinado para:
+
+- Jovens adultos
+- Trabalhadores assalariados
+- Profissionais autônomos
+- Pequenos empreendedores
+- Pessoas iniciando sua educação financeira
+
+Faixa etária:
+
+**18 a 50 anos**
+
+---
+
+# 💡 Proposta de Valor
+
+> **Organizar suas finanças deve ser tão simples quanto enviar uma mensagem no WhatsApp.**
+
+O usuário conversa com a IA e ela cuida do restante.
+
+---
+
+# ✨ Funcionalidades do MVP
+
+## 💬 1. Chat Financeiro
+
+Tela principal do aplicativo.
+
+O usuário poderá conversar naturalmente.
+
+### Exemplos
+
+> Gastei 5.000 Kz em combustível.
+
+> Recebi meu salário hoje.
+
+> Paguei internet de 12.000 Kz.
+
+A IA deverá interpretar automaticamente:
+
+- valor
+- categoria
+- data
+- tipo da transação
+- descrição
+
+e salvar tudo no banco de dados.
+
+---
+
+## 🤖 2. Classificação Inteligente
+
+A IA identifica automaticamente categorias como:
+
+- 🍔 Alimentação
+- 🚗 Transporte
+- 🏠 Moradia
+- 💡 Serviços
+- 🎓 Educação
+- 🛍 Compras
+- 🎮 Lazer
+- 🏥 Saúde
+- 💼 Salário
+- 📈 Investimentos
+
+Sem qualquer seleção manual.
+
+---
+
+## 🎯 3. Metas Financeiras
+
+O usuário poderá criar objetivos dizendo frases como:
+
+> Quero economizar 200.000 Kz até dezembro.
+
+A IA deverá:
+
+- criar a meta;
+- calcular quanto economizar por mês;
+- acompanhar o progresso;
+- mostrar percentual concluído;
+- enviar incentivos.
+
+---
+
+## 📊 4. Dashboard
+
+O Dashboard deve apresentar:
+
+- Saldo Atual
+- Total de Receitas
+- Total de Despesas
+- Gastos por Categoria
+- Evolução Mensal
+- Metas Financeiras
+- Últimas Movimentações
+
+Os gráficos devem atualizar automaticamente.
+
+---
+
+## 💡 5. Agente Financeiro
+
+O agente será chamado **FinBot**.
+
+Seu papel será:
+
+- analisar gastos;
+- identificar excessos;
+- sugerir economia;
+- incentivar metas;
+- ensinar educação financeira.
+
+Exemplo:
+
+> Você gastou 22% mais com alimentação este mês.
+
+Ou
+
+> Se reduzir 10% das despesas com delivery poderá economizar aproximadamente 15.000 Kz por mês.
+
+---
+
+# 📱 Fluxo das Telas
+
+```text
+🚀 Splash
+
+      │
+
+🔐 Login
+
+      │
+
+📝 Cadastro
+
+      │
+
+🏠 Dashboard
+      │
+      ├── 💬 Chat Financeiro
+      ├── 📜 Histórico
+      ├── 🎯 Metas
+      ├── 📊 Dashboard
+      ├── 👤 Perfil
+      └── ⚙️ Configurações
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+---
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+# 🎨 Design
 
-### 2. Explorando o Lovable na Prática
+## Estilo
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+- Moderno
+- Clean
+- Minimalista
+- Responsivo
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+## Cores
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+Primária
 
-### 3. Entregando o Desafio na DIO
+- Azul (#2563EB)
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+Secundária
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+- Verde (#22C55E)
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+Neutras
 
-## 💬 Conclusão
+- Branco
+- Cinza Claro
+- Cinza Escuro
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+---
+
+# 🤖 Personalidade da IA
+
+Nome:
+
+**FinBot**
+
+Características:
+
+- Educado
+- Motivador
+- Objetivo
+- Didático
+- Conversacional
+- Nunca julgador
+
+A IA sempre deve explicar suas recomendações de forma simples.
+
+---
+
+# 🛠 Stack Tecnológica
+
+| Camada | Tecnologia |
+|---------|------------|
+| 🎨 Frontend | Lovable |
+| ⚙ Backend | Supabase |
+| 🗄 Banco de Dados | PostgreSQL (Supabase) |
+| 🔐 Autenticação | Supabase Auth |
+| 🤖 IA | OpenAI GPT |
+| 📊 Gráficos | Recharts |
+| ☁ Deploy | Lovable + Supabase |
+
+---
+
+# 🏗 Arquitetura
+
+```text
+                 👤 Usuário
+                      │
+                      ▼
+                Frontend (Lovable)
+                      │
+        ┌─────────────┴─────────────┐
+        │                           │
+        ▼                           ▼
+     OpenAI GPT              Supabase Auth
+        │                           │
+        └─────────────┬─────────────┘
+                      ▼
+               Supabase Backend
+                      │
+                      ▼
+              PostgreSQL Database
+```
+
+---
+
+# 🗄 Banco de Dados
+
+## users
+
+- id
+- nome
+- email
+- created_at
+
+---
+
+## transactions
+
+- id
+- user_id
+- tipo
+- categoria
+- descricao
+- valor
+- data
+- created_at
+
+---
+
+## goals
+
+- id
+- user_id
+- titulo
+- valor_meta
+- valor_atual
+- data_limite
+- status
+
+---
+
+## conversations
+
+- id
+- user_id
+- mensagem
+- resposta_ia
+- created_at
+
+---
+
+# 🔐 Autenticação
+
+Utilizar Supabase Auth com:
+
+- Login por e-mail
+- Cadastro
+- Recuperação de senha
+- Sessão persistente
+- Logout
+
+---
+
+# 📈 Dashboard
+
+O Dashboard deverá possuir:
+
+- Card de Saldo
+- Card de Receitas
+- Card de Despesas
+- Card de Economia
+- Gráfico de Pizza por Categoria
+- Gráfico Mensal
+- Lista das Últimas Transações
+
+---
+
+# 🚀 Requisitos para o Lovable
+
+Desenvolver uma aplicação completa utilizando React e TypeScript gerados pelo Lovable, com interface totalmente responsiva para desktop e dispositivos móveis.
+
+Implementar autenticação utilizando Supabase Auth.
+
+Persistir todos os dados no PostgreSQL do Supabase.
+
+Criar todas as tabelas e relacionamentos necessários.
+
+Utilizar Row Level Security (RLS) para garantir que cada usuário acesse apenas seus próprios dados.
+
+Consumir a OpenAI API para interpretar mensagens em linguagem natural e gerar recomendações financeiras.
+
+Criar componentes reutilizáveis.
+
+Utilizar boas práticas de UX/UI.
+
+Adicionar estados de carregamento (loading), tratamento de erros e mensagens de sucesso.
+
+Organizar o projeto de forma modular e escalável.
+
+---
+
+# 📊 Critérios de Validação
+
+O MVP será considerado validado quando:
+
+- ✅ O usuário conseguir registrar uma despesa apenas conversando.
+- ✅ As transações forem classificadas corretamente.
+- ✅ O Dashboard atualizar automaticamente.
+- ✅ As metas forem acompanhadas em tempo real.
+- ✅ O FinBot fornecer recomendações relevantes.
+
+---
+
+# 🔮 Evoluções Futuras
+
+- 🏦 Integração bancária (Open Finance)
+- 💳 Importação automática de extratos
+- 📸 OCR para leitura de recibos
+- 🎤 Registro por voz
+- 📅 Planejamento financeiro
+- 📈 Controle de investimentos
+- 👨‍👩‍👧 Finanças familiares
+- 🔔 Alertas inteligentes
+- 🌎 Multi-moeda
+- 📱 Aplicativo mobile nativo
+
+---
+
+# ✅ Resultado Esperado
+
+O FinChat AI deverá oferecer uma experiência moderna e intuitiva, permitindo que qualquer pessoa organize suas finanças de forma simples através de conversas com um assistente inteligente.
+
+O objetivo é reduzir a fricção no registro de transações, incentivar hábitos financeiros saudáveis e demonstrar o potencial do Vibe Coding na criação de aplicações completas com IA, utilizando Lovable e Supabase.
+
+> **"Converse. Registre. Economize. Evolua."** 💙
