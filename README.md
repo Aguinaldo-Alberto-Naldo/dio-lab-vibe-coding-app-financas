@@ -404,3 +404,27 @@ O FinChat AI deverá oferecer uma experiência moderna e intuitiva, permitindo q
 O objetivo é reduzir a fricção no registro de transações, incentivar hábitos financeiros saudáveis e demonstrar o potencial do Vibe Coding na criação de aplicações completas com IA, utilizando Lovable e Supabase.
 
 > **"Converse. Registre. Economize. Evolua."** 💙
+
+
+# ✅ Fotos do processo
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6aa84722-4a45-46b8-bdc2-eb40c5757de3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/727ace45-d97b-4e95-b311-58d7e57897d4" />
+
+# ✅  Fotos do APP no Lovable
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d32d36d2-6151-4c3e-87de-a5b173717b84" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/94eb0b5c-1646-46b8-bd8b-b6480d0a6f39" />
+
+# 🧠 Reflexão sobre o PRD
+
+A criação do PRD do **FinChat AI** ajudou a transformar uma ideia em uma solução estruturada, definindo claramente o problema, o público-alvo, as funcionalidades e os objetivos do MVP.
+
+O principal aprendizado foi perceber que a qualidade das respostas da IA depende da clareza das instruções fornecidas. No **Vibe Coding**, a IA funciona como uma parceira de criação, mas é necessário ter uma visão bem definida para orientar o desenvolvimento.
+
+Durante o processo, também aprendi a importância de priorizar funcionalidades essenciais e evitar adicionar recursos demais antes de validar a solução principal.
+
+Este projeto mostrou que, com bons prompts e uma estratégia clara, é possível utilizar a IA para acelerar a criação de produtos digitais.
+
+
+
+
